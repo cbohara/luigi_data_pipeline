@@ -1,42 +1,45 @@
 #!/usr/local/bin/python3
 import luigi
-from time import sleep
+import os
 
 
 class HelloTask(luigi.Task):
-    path = luigi.Paramter()
+    path = luigi.Parameter()
 
     def run(self):
-        sleep(60)
         with open(self.path, 'w') as hello_file:
             hello_file.write('Hello')
 
     def output(self):
         return luigi.LocalTarget(self.path)
 
+    def requires(self):
+        return [MakeDirectory(path=os.path.dirname(self.path))]
+
 
 class WorldTask(luigi.Task):
-    path = luigi.Paramter()
+    path = luigi.Parameter()
 
     def run(self):
-        sleep(30)
         with open(self.path, 'w') as world_file:
             world_file.write('World')
 
     def output(self):
         return luigi.LocalTarget(self.path)
 
+    def requires(self):
+        return [MakeDirectory(path=os.path.dirname(self.path))]
+
 
 class HelloWorldTask(luigi.Task):
     id = luigi.Parameter(default='test')
 
     def run(self):
-        sleep(60)
-        with open('hello.txt', 'r') as hello_file:
+        with open(self.input()[0].path, 'r') as hello_file:
             hello = hello_file.read()
-        with open('world.txt', 'r') as world_file:
+        with open(self.input()[1].path, 'r') as world_file:
             world = world_file.read()
-        with open('hello_world.txt', 'w') as output_file:
+        with open(self.output().path, 'w') as output_file:
             content = '{} {}'.format(hello, world)
             output_file.write(content)
 
@@ -49,6 +52,16 @@ class HelloWorldTask(luigi.Task):
     def output(self):
         path = 'results/{}/hello_world.txt'.format(self.id)
         return luigi.LocalTarget(path)
+
+
+class MakeDirectory(luigi.Task):
+    path = luigi.Parameter()
+
+    def run(self):
+        os.makedirs(self.path)
+
+    def output(self):
+        return luigi.LocalTarget(self.path)
 
 
 if __name__ == '__main__':
