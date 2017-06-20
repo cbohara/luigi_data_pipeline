@@ -4,23 +4,27 @@ from time import sleep
 
 
 class HelloTask(luigi.Task):
+    path = luigi.Paramter()
+
     def run(self):
         sleep(60)
-        with open('hello.txt', 'w') as hello_file:
+        with open(self.path, 'w') as hello_file:
             hello_file.write('Hello')
 
     def output(self):
-        return luigi.LocalTarget('hello.txt')
+        return luigi.LocalTarget(self.path)
 
 
 class WorldTask(luigi.Task):
+    path = luigi.Paramter()
+
     def run(self):
         sleep(30)
-        with open('world.txt', 'w') as world_file:
+        with open(self.path, 'w') as world_file:
             world_file.write('World')
 
     def output(self):
-        return luigi.LocalTarget('world.txt')
+        return luigi.LocalTarget(self.path)
 
 
 class HelloWorldTask(luigi.Task):
