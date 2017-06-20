@@ -1,0 +1,561 @@
+2017-06-20 15:12:54,823 luigi-interface[77904] INFO: Loaded []
+2017-06-20 15:12:54,828 luigi.scheduler[77904] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
+2017-06-20 15:12:54,839 luigi.server[77904] INFO: Scheduler starting up
+2017-06-20 15:13:09,201 luigi-interface[77913] INFO: Loaded []
+2017-06-20 15:13:09,204 luigi.scheduler[77913] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
+2017-06-20 15:13:20,433 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 1.96ms
+2017-06-20 15:13:20,437 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.61ms
+2017-06-20 15:13:20,441 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.74ms
+2017-06-20 15:13:20,447 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.97ms
+2017-06-20 15:13:20,452 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.62ms
+2017-06-20 15:13:54,841 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:13:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:14:54,841 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:14:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:15:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:15:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:16:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:16:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:16:57,691 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.77ms
+2017-06-20 15:16:57,696 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.60ms
+2017-06-20 15:16:57,699 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.65ms
+2017-06-20 15:16:58,680 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:16:59,688 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:17:00,698 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:17:01,705 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:17:02,721 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.00ms
+2017-06-20 15:17:03,727 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:17:04,735 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.57ms
+2017-06-20 15:17:05,747 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.43ms
+2017-06-20 15:17:06,758 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.66ms
+2017-06-20 15:17:07,767 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:17:08,776 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:17:09,786 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:17:10,795 tornado.access[77904] INFO: 200 GET /api/ping (::1) 2.51ms
+2017-06-20 15:17:11,805 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:17:12,818 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.44ms
+2017-06-20 15:17:13,826 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.37ms
+2017-06-20 15:17:14,835 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.09ms
+2017-06-20 15:17:15,847 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.47ms
+2017-06-20 15:17:16,857 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.77ms
+2017-06-20 15:17:17,864 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:17:18,872 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.70ms
+2017-06-20 15:17:19,878 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:17:20,887 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:17:21,899 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.15ms
+2017-06-20 15:17:22,904 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:17:23,916 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.97ms
+2017-06-20 15:17:24,927 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:17:25,936 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.71ms
+2017-06-20 15:17:26,946 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:17:27,954 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:17:28,961 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:17:29,971 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:17:30,975 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.56ms
+2017-06-20 15:17:31,983 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:17:32,998 tornado.access[77904] INFO: 200 GET /api/ping (::1) 2.08ms
+2017-06-20 15:17:34,009 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.77ms
+2017-06-20 15:17:35,015 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.55ms
+2017-06-20 15:17:36,021 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:17:37,026 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:17:38,034 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.55ms
+2017-06-20 15:17:39,045 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:17:40,054 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.56ms
+2017-06-20 15:17:41,062 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:17:42,072 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:17:43,083 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.68ms
+2017-06-20 15:17:44,093 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:17:45,102 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.73ms
+2017-06-20 15:17:46,112 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.77ms
+2017-06-20 15:17:47,122 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:17:48,129 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:17:49,134 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:17:50,142 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:17:51,149 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.85ms
+2017-06-20 15:17:52,155 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:17:53,166 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.83ms
+2017-06-20 15:17:54,174 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.55ms
+2017-06-20 15:17:54,839 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:17:54,840 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:17:55,179 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:17:56,187 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.73ms
+2017-06-20 15:17:57,196 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.77ms
+2017-06-20 15:17:57,717 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 1.64ms
+2017-06-20 15:17:57,724 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.74ms
+2017-06-20 15:18:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:18:54,848 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:19:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:19:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:20:06,950 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.76ms
+2017-06-20 15:20:06,955 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.60ms
+2017-06-20 15:20:06,959 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.64ms
+2017-06-20 15:20:54,841 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:20:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:21:54,841 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:21:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:22:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:22:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:23:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:23:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:24:49,340 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.76ms
+2017-06-20 15:24:49,345 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.67ms
+2017-06-20 15:24:49,349 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.75ms
+2017-06-20 15:24:50,331 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:24:51,338 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:24:52,343 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:24:53,348 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:24:54,357 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:24:54,839 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:24:54,840 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:24:55,363 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:24:56,374 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.74ms
+2017-06-20 15:24:57,380 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:24:58,391 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.17ms
+2017-06-20 15:24:59,401 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.68ms
+2017-06-20 15:25:00,406 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.22ms
+2017-06-20 15:25:01,414 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:25:02,421 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.64ms
+2017-06-20 15:25:03,430 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:25:04,434 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:25:05,447 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.75ms
+2017-06-20 15:25:06,454 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:25:07,465 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:25:08,474 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:25:09,494 tornado.access[77904] INFO: 200 GET /api/ping (::1) 2.20ms
+2017-06-20 15:25:10,505 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.54ms
+2017-06-20 15:25:11,511 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.56ms
+2017-06-20 15:25:12,516 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.01ms
+2017-06-20 15:25:13,525 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:25:14,534 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:25:15,542 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.27ms
+2017-06-20 15:25:16,552 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.08ms
+2017-06-20 15:25:17,562 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:25:18,570 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:25:19,362 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.71ms
+2017-06-20 15:25:19,367 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.72ms
+2017-06-20 15:25:39,364 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.79ms
+2017-06-20 15:25:39,368 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.58ms
+2017-06-20 15:25:39,372 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.61ms
+2017-06-20 15:25:54,840 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:25:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:26:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:26:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:27:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:27:54,845 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:28:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:28:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:29:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:29:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:30:25,101 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.75ms
+2017-06-20 15:30:25,110 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 1.19ms
+2017-06-20 15:30:25,119 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.85ms
+2017-06-20 15:30:36,330 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.69ms
+2017-06-20 15:30:36,334 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.94ms
+2017-06-20 15:30:36,338 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.61ms
+2017-06-20 15:30:54,840 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:30:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:31:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:31:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:32:43,840 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.75ms
+2017-06-20 15:32:43,845 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.85ms
+2017-06-20 15:32:43,849 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.69ms
+2017-06-20 15:32:43,853 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.57ms
+2017-06-20 15:32:43,858 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 1.66ms
+2017-06-20 15:32:44,826 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:32:45,835 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.83ms
+2017-06-20 15:32:46,842 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.53ms
+2017-06-20 15:32:47,853 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.27ms
+2017-06-20 15:32:48,859 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.64ms
+2017-06-20 15:32:49,863 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:32:50,870 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.55ms
+2017-06-20 15:32:51,877 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:32:52,885 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:32:53,891 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.93ms
+2017-06-20 15:32:54,840 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:32:54,840 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:32:54,902 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.64ms
+2017-06-20 15:32:55,909 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.56ms
+2017-06-20 15:32:56,914 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:32:57,923 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:32:58,928 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:32:59,935 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.68ms
+2017-06-20 15:33:00,941 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:33:01,946 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.56ms
+2017-06-20 15:33:02,951 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.89ms
+2017-06-20 15:33:03,962 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:33:04,966 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.56ms
+2017-06-20 15:33:05,975 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:33:06,984 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.96ms
+2017-06-20 15:33:07,993 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:33:09,003 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.66ms
+2017-06-20 15:33:10,013 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:33:11,021 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:33:12,030 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:33:13,039 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.30ms
+2017-06-20 15:33:14,045 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.57ms
+2017-06-20 15:33:15,051 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:33:16,063 tornado.access[77904] INFO: 200 GET /api/ping (::1) 2.04ms
+2017-06-20 15:33:17,070 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.58ms
+2017-06-20 15:33:18,077 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.11ms
+2017-06-20 15:33:19,086 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.60ms
+2017-06-20 15:33:20,097 tornado.access[77904] INFO: 200 GET /api/ping (::1) 2.27ms
+2017-06-20 15:33:21,104 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.56ms
+2017-06-20 15:33:22,114 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:33:23,123 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.94ms
+2017-06-20 15:33:24,131 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.66ms
+2017-06-20 15:33:25,137 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:33:26,143 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.00ms
+2017-06-20 15:33:27,152 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.64ms
+2017-06-20 15:33:28,161 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.83ms
+2017-06-20 15:33:29,166 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.66ms
+2017-06-20 15:33:30,172 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:33:31,180 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:33:32,187 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:33:33,195 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:33:34,203 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.05ms
+2017-06-20 15:33:35,213 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:33:36,224 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.38ms
+2017-06-20 15:33:37,231 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.57ms
+2017-06-20 15:33:38,240 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.31ms
+2017-06-20 15:33:39,247 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:33:40,259 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.70ms
+2017-06-20 15:33:41,268 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.76ms
+2017-06-20 15:33:42,277 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.74ms
+2017-06-20 15:33:43,285 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:33:43,871 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.99ms
+2017-06-20 15:33:43,878 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 1.49ms
+2017-06-20 15:33:54,841 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:33:54,841 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:34:47,211 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.70ms
+2017-06-20 15:34:47,215 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.57ms
+2017-06-20 15:34:47,218 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.62ms
+2017-06-20 15:34:54,840 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:34:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,193 tornado.access[77904] INFO: 302 GET / (::1) 0.41ms
+2017-06-20 15:35:02,212 tornado.access[77904] INFO: 200 GET /static/visualiser/index.html (::1) 13.72ms
+2017-06-20 15:35:02,232 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/bootstrap3/css/bootstrap-theme.min.css (::1) 6.52ms
+2017-06-20 15:35:02,246 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/bootstrap3/css/bootstrap.min.css (::1) 12.93ms
+2017-06-20 15:35:02,251 tornado.access[77904] INFO: 200 GET /static/visualiser/css/font-awesome.min.css (::1) 3.80ms
+2017-06-20 15:35:02,259 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/jquery-1.10.0.min.js (::1) 7.50ms
+2017-06-20 15:35:02,264 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/bootstrap3/js/bootstrap.min.js (::1) 3.60ms
+2017-06-20 15:35:02,268 tornado.access[77904] INFO: 200 GET /static/visualiser/css/tipsy.css (::1) 2.59ms
+2017-06-20 15:35:02,276 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/AdminLTE/css/AdminLTE.min.css (::1) 7.16ms
+2017-06-20 15:35:02,286 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/datatables/css/jquery.dataTables.min.css (::1) 7.50ms
+2017-06-20 15:35:02,299 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/d3/dagre-d3.min.js (::1) 11.67ms
+2017-06-20 15:35:02,306 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/mustache.js (::1) 6.46ms
+2017-06-20 15:35:02,321 tornado.access[77904] INFO: 200 GET /static/visualiser/js/luigi.js (::1) 13.67ms
+2017-06-20 15:35:02,332 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/AdminLTE/css/skin-green-light.min.css (::1) 10.09ms
+2017-06-20 15:35:02,342 tornado.access[77904] INFO: 200 GET /static/visualiser/js/graph.js (::1) 8.42ms
+2017-06-20 15:35:02,357 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/d3/d3.min.js (::1) 14.09ms
+2017-06-20 15:35:02,362 tornado.access[77904] INFO: 200 GET /static/visualiser/js/visualiserApp.js (::1) 4.16ms
+2017-06-20 15:35:02,366 tornado.access[77904] INFO: 200 GET /static/visualiser/js/tipsy.js (::1) 3.41ms
+2017-06-20 15:35:02,371 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/AdminLTE/js/app.min.js (::1) 3.30ms
+2017-06-20 15:35:02,375 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/jquery.slimscroll.min.js (::1) 3.01ms
+2017-06-20 15:35:02,387 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/datatables/js/jquery.dataTables.min.js (::1) 11.01ms
+2017-06-20 15:35:02,393 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/URI/1.18.2/URI.js (::1) 5.28ms
+2017-06-20 15:35:02,632 tornado.access[77904] INFO: 200 GET /static/visualiser/fonts/fontawesome-webfont.woff2?v=4.3.0 (::1) 2.30ms
+2017-06-20 15:35:02,843 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,845 tornado.access[77904] INFO: 200 GET /api/worker_list?data=%7B%7D (::1) 1.76ms
+2017-06-20 15:35:02,846 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,847 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,848 tornado.access[77904] INFO: 200 GET /api/resource_list?data=%7B%7D (::1) 2.08ms
+2017-06-20 15:35:02,875 tornado.access[77904] INFO: 200 GET /static/visualiser/lib/datatables/images/sort_both.png (::1) 2.04ms
+2017-06-20 15:35:02,932 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,932 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,933 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.85ms
+2017-06-20 15:35:02,935 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,935 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,936 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_DISABLED%22%2C%22search%22%3A%22%22%7D (::1) 1.75ms
+2017-06-20 15:35:02,937 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,938 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,939 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22DISABLED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.69ms
+2017-06-20 15:35:02,940 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,940 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,941 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_FAILED%22%2C%22search%22%3A%22%22%7D (::1) 1.68ms
+2017-06-20 15:35:02,942 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,942 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,943 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22FAILED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.57ms
+2017-06-20 15:35:02,945 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,945 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,946 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22BATCH_RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.10ms
+2017-06-20 15:35:02,948 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,948 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,949 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.67ms
+2017-06-20 15:35:02,951 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:02,953 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:02,971 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22DONE%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 20.47ms
+2017-06-20 15:35:03,135 tornado.access[77904] WARNING: 404 GET /favicon.ico (::1) 1.18ms
+2017-06-20 15:35:45,630 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:45,632 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:45,634 tornado.access[77904] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloTask__99914b932b%22%2C%22include_done%22%3Afalse%7D (::1) 3.91ms
+2017-06-20 15:35:49,994 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:49,994 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:49,997 tornado.access[77904] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22WorldTask__99914b932b%22%2C%22include_done%22%3Afalse%7D (::1) 3.59ms
+2017-06-20 15:35:52,892 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:52,892 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:35:52,893 tornado.access[77904] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask__99914b932b%22%2C%22include_done%22%3Afalse%7D (::1) 1.36ms
+2017-06-20 15:35:54,840 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:35:54,840 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:15,528 tornado.access[77904] INFO: 304 GET /static/visualiser/index.html (::1) 0.88ms
+2017-06-20 15:36:15,949 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:15,949 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:15,950 tornado.access[77904] INFO: 200 GET /api/worker_list?data=%7B%7D (::1) 1.39ms
+2017-06-20 15:36:15,951 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:15,951 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:15,952 tornado.access[77904] INFO: 304 GET /api/resource_list?data=%7B%7D (::1) 1.28ms
+2017-06-20 15:36:16,008 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:16,008 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:16,009 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.73ms
+2017-06-20 15:36:16,010 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:16,011 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:16,012 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22BATCH_RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.05ms
+2017-06-20 15:36:16,028 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:16,029 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:16,030 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22FAILED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.77ms
+2017-06-20 15:36:16,032 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:16,032 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:16,033 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_FAILED%22%2C%22search%22%3A%22%22%7D (::1) 1.45ms
+2017-06-20 15:36:16,035 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:16,035 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:16,036 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_DISABLED%22%2C%22search%22%3A%22%22%7D (::1) 1.86ms
+2017-06-20 15:36:16,037 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:16,038 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:16,039 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22DISABLED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.05ms
+2017-06-20 15:36:16,041 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:16,041 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:16,042 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22DONE%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.17ms
+2017-06-20 15:36:16,044 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:16,044 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:16,045 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.01ms
+2017-06-20 15:36:22,826 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:22,827 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:22,828 tornado.access[77904] INFO: 304 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask__99914b932b%22%2C%22include_done%22%3Afalse%7D (::1) 1.38ms
+2017-06-20 15:36:25,274 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:25,274 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:36:25,275 tornado.access[77904] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask__99914b932b%22%2C%22include_done%22%3Atrue%7D (::1) 1.42ms
+2017-06-20 15:36:54,841 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:36:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:37:55,132 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:37:55,133 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:38:54,841 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:38:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:39:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:39:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:40:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:40:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:41:54,840 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:41:54,841 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:42:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:42:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:43:54,843 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:43:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:44:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:44:54,843 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:45:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:45:54,844 luigi.scheduler[77904] INFO: Removing task 'HelloTask__99914b932b'
+2017-06-20 15:45:54,844 luigi.scheduler[77904] INFO: Removing task 'WorldTask__99914b932b'
+2017-06-20 15:45:54,844 luigi.scheduler[77904] INFO: Removing task 'HelloWorldTask__99914b932b'
+2017-06-20 15:45:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:46:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:46:54,845 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:47:54,843 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:47:54,845 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:48:54,843 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:48:54,845 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:49:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:49:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:50:54,841 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:50:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:51:54,843 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:51:54,845 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:52:48,420 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.81ms
+2017-06-20 15:52:48,425 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.77ms
+2017-06-20 15:52:48,429 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 0.81ms
+2017-06-20 15:52:48,434 tornado.access[77904] INFO: 200 GET /api/add_worker (::1) 0.67ms
+2017-06-20 15:52:48,438 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 1.18ms
+2017-06-20 15:52:48,457 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 1.60ms
+2017-06-20 15:52:49,413 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.70ms
+2017-06-20 15:52:50,424 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:52:51,430 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:52:52,441 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:52:53,450 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.62ms
+2017-06-20 15:52:54,457 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:52:54,840 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:52:54,841 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:52:55,464 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:52:56,472 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.67ms
+2017-06-20 15:52:57,478 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.66ms
+2017-06-20 15:52:58,484 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:52:59,491 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:00,500 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:01,510 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.64ms
+2017-06-20 15:53:02,520 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:53:03,527 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:53:04,536 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:05,546 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:53:06,556 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.00ms
+2017-06-20 15:53:07,566 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.76ms
+2017-06-20 15:53:08,576 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:53:09,583 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:10,586 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.55ms
+2017-06-20 15:53:11,592 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:12,607 tornado.access[77904] INFO: 200 GET /api/ping (::1) 2.24ms
+2017-06-20 15:53:13,615 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.65ms
+2017-06-20 15:53:14,627 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.69ms
+2017-06-20 15:53:15,632 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:53:16,640 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:53:17,648 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:53:18,456 tornado.access[77904] INFO: 200 GET /api/add_task (::1) 1.33ms
+2017-06-20 15:53:18,468 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 3.96ms
+2017-06-20 15:53:18,663 tornado.access[77904] INFO: 200 GET /api/ping (::1) 1.14ms
+2017-06-20 15:53:19,477 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.77ms
+2017-06-20 15:53:19,671 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:20,484 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.74ms
+2017-06-20 15:53:20,680 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:21,490 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.73ms
+2017-06-20 15:53:21,688 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.64ms
+2017-06-20 15:53:22,497 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.89ms
+2017-06-20 15:53:22,699 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.75ms
+2017-06-20 15:53:23,505 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.74ms
+2017-06-20 15:53:23,709 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.80ms
+2017-06-20 15:53:24,514 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.79ms
+2017-06-20 15:53:24,713 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:53:25,523 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.74ms
+2017-06-20 15:53:25,719 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:26,533 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 1.13ms
+2017-06-20 15:53:26,726 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:27,544 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.71ms
+2017-06-20 15:53:27,731 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.57ms
+2017-06-20 15:53:28,553 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.73ms
+2017-06-20 15:53:28,741 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:29,563 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.74ms
+2017-06-20 15:53:29,749 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:53:30,574 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.76ms
+2017-06-20 15:53:30,760 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.66ms
+2017-06-20 15:53:31,586 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.90ms
+2017-06-20 15:53:31,770 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:53:32,593 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.75ms
+2017-06-20 15:53:32,776 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.61ms
+2017-06-20 15:53:33,605 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.94ms
+2017-06-20 15:53:33,784 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:53:34,615 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.79ms
+2017-06-20 15:53:34,790 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.66ms
+2017-06-20 15:53:35,621 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.74ms
+2017-06-20 15:53:35,801 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:36,631 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.79ms
+2017-06-20 15:53:36,811 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.63ms
+2017-06-20 15:53:37,640 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.74ms
+2017-06-20 15:53:37,819 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:38,647 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.80ms
+2017-06-20 15:53:38,829 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.66ms
+2017-06-20 15:53:39,655 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 1.27ms
+2017-06-20 15:53:39,838 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.69ms
+2017-06-20 15:53:40,667 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.83ms
+2017-06-20 15:53:40,847 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.74ms
+2017-06-20 15:53:41,679 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.81ms
+2017-06-20 15:53:41,854 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.59ms
+2017-06-20 15:53:42,690 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.97ms
+2017-06-20 15:53:42,859 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.60ms
+2017-06-20 15:53:43,699 tornado.access[77904] INFO: 200 GET /api/get_work (::1) 0.75ms
+2017-06-20 15:53:43,866 tornado.access[77904] INFO: 200 GET /api/ping (::1) 0.68ms
+2017-06-20 15:53:54,840 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:53:54,842 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:54:54,843 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:54:54,844 luigi.scheduler[77904] INFO: Task 'HelloTask__99914b932b' is marked as running by disconnected worker 'Worker(salt=042578971, workers=2, host=Charlies-MBP, username=cbohara, pid=78219)' -> marking as FAILED with retry delay of 900.0s
+2017-06-20 15:54:54,845 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:55:54,843 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:55:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:56:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:56:54,845 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:57:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:57:54,845 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:36,768 tornado.access[77904] INFO: 304 GET /static/visualiser/index.html (::1) 2.23ms
+2017-06-20 15:58:36,814 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/AdminLTE/css/AdminLTE.min.css (::1) 1.00ms
+2017-06-20 15:58:36,816 tornado.access[77904] INFO: 304 GET /static/visualiser/css/tipsy.css (::1) 1.20ms
+2017-06-20 15:58:36,818 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/bootstrap3/js/bootstrap.min.js (::1) 0.97ms
+2017-06-20 15:58:36,828 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/bootstrap3/css/bootstrap-theme.min.css (::1) 10.22ms
+2017-06-20 15:58:36,830 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/bootstrap3/css/bootstrap.min.css (::1) 1.01ms
+2017-06-20 15:58:36,839 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/jquery-1.10.0.min.js (::1) 8.50ms
+2017-06-20 15:58:36,842 tornado.access[77904] INFO: 304 GET /static/visualiser/css/font-awesome.min.css (::1) 1.23ms
+2017-06-20 15:58:36,845 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/AdminLTE/css/skin-green-light.min.css (::1) 2.16ms
+2017-06-20 15:58:36,848 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/d3/dagre-d3.min.js (::1) 1.63ms
+2017-06-20 15:58:36,850 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/datatables/css/jquery.dataTables.min.css (::1) 0.96ms
+2017-06-20 15:58:36,855 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/d3/d3.min.js (::1) 4.28ms
+2017-06-20 15:58:36,861 tornado.access[77904] INFO: 304 GET /static/visualiser/js/visualiserApp.js (::1) 3.89ms
+2017-06-20 15:58:36,863 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/mustache.js (::1) 0.97ms
+2017-06-20 15:58:36,865 tornado.access[77904] INFO: 304 GET /static/visualiser/js/luigi.js (::1) 1.00ms
+2017-06-20 15:58:36,867 tornado.access[77904] INFO: 304 GET /static/visualiser/js/tipsy.js (::1) 0.89ms
+2017-06-20 15:58:36,871 tornado.access[77904] INFO: 304 GET /static/visualiser/js/graph.js (::1) 2.57ms
+2017-06-20 15:58:36,874 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/jquery.slimscroll.min.js (::1) 1.05ms
+2017-06-20 15:58:36,876 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/AdminLTE/js/app.min.js (::1) 0.86ms
+2017-06-20 15:58:36,899 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/datatables/js/jquery.dataTables.min.js (::1) 1.08ms
+2017-06-20 15:58:36,901 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/URI/1.18.2/URI.js (::1) 1.05ms
+2017-06-20 15:58:37,130 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,130 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,131 tornado.access[77904] INFO: 304 GET /api/worker_list?data=%7B%7D (::1) 1.36ms
+2017-06-20 15:58:37,132 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,133 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,133 tornado.access[77904] INFO: 304 GET /api/resource_list?data=%7B%7D (::1) 1.60ms
+2017-06-20 15:58:37,161 tornado.access[77904] INFO: 304 GET /static/visualiser/lib/datatables/images/sort_both.png (::1) 0.73ms
+2017-06-20 15:58:37,186 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,187 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,189 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.49ms
+2017-06-20 15:58:37,194 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,194 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,195 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22BATCH_RUNNING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.68ms
+2017-06-20 15:58:37,197 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,197 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,198 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22FAILED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.61ms
+2017-06-20 15:58:37,199 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,200 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,201 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_FAILED%22%2C%22search%22%3A%22%22%7D (::1) 1.69ms
+2017-06-20 15:58:37,203 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,203 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,204 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22DONE%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 2.02ms
+2017-06-20 15:58:37,205 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,205 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,206 tornado.access[77904] INFO: 200 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.74ms
+2017-06-20 15:58:37,208 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,208 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,209 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22PENDING%22%2C%22upstream_status%22%3A%22UPSTREAM_DISABLED%22%2C%22search%22%3A%22%22%7D (::1) 1.73ms
+2017-06-20 15:58:37,210 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,210 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,211 tornado.access[77904] INFO: 304 GET /api/task_list?data=%7B%22status%22%3A%22DISABLED%22%2C%22upstream_status%22%3A%22%22%2C%22search%22%3A%22%22%7D (::1) 1.55ms
+2017-06-20 15:58:37,212 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,213 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,214 tornado.access[77904] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask__99914b932b%22%2C%22include_done%22%3Atrue%7D (::1) 1.68ms
+2017-06-20 15:58:37,307 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:37,308 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:37,308 tornado.access[77904] INFO: 304 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask__99914b932b%22%2C%22include_done%22%3Atrue%7D (::1) 1.12ms
+2017-06-20 15:58:51,352 tornado.access[77904] INFO: 200 GET /api/fetch_error?data=%7B%22task_id%22%3A%22HelloTask__99914b932b%22%7D (::1) 0.58ms
+2017-06-20 15:58:54,839 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:58:54,839 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:58:57,621 tornado.access[77904] INFO: 304 GET /api/fetch_error?data=%7B%22task_id%22%3A%22HelloTask__99914b932b%22%7D (::1) 0.83ms
+2017-06-20 15:59:01,028 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:59:01,029 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 15:59:01,031 tornado.access[77904] INFO: 200 GET /api/dep_graph?data=%7B%22task_id%22%3A%22HelloWorldTask_test_38c5a156b6%22%2C%22include_done%22%3Afalse%7D (::1) 3.24ms
+2017-06-20 15:59:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 15:59:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 16:00:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 16:00:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 16:01:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 16:01:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 16:02:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 16:02:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 16:03:54,839 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 16:03:54,841 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 16:04:54,842 luigi.scheduler[77904] INFO: Starting pruning of task graph
+2017-06-20 16:04:54,844 luigi.scheduler[77904] INFO: Done pruning task graph
+2017-06-20 16:05:33,657 luigi.server[77904] INFO: Scheduler instance shutting down
+2017-06-20 16:05:33,659 luigi.scheduler[77904] WARNING: Failed saving scheduler state
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/luigi/scheduler.py", line 445, in dump
+    with open(self._state_path, 'wb') as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/state.pickle'
+2017-06-20 16:05:33,663 luigi.server[77904] INFO: Scheduler instance shutting down
+2017-06-20 16:05:33,664 luigi.scheduler[77904] WARNING: Failed saving scheduler state
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/luigi/scheduler.py", line 445, in dump
+    with open(self._state_path, 'wb') as fobj:
+FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/luigi-server/state.pickle'
