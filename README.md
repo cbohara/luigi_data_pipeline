@@ -10,8 +10,8 @@
 - run application
     - python3 hello_world.py HelloWorldTask --workers=2
 
-- If the file exists in output() then Luigi will not rewrite the file
-- If we want to re-write the text files for each run, we need to parameterize the jobs
+- if the file exists in output() then Luigi will not rewrite the file
+- if we want to re-write the text files for each run, we need to parameterize the jobs
 
-- Create a new hello_world.txt file in a specified directory every time we run the job
+- create a new hello_world.txt file in a specified directory every time we run the job
 
