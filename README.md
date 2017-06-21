@@ -9,9 +9,3 @@
     - kill [pid]
 - run application
     - python3 hello_world.py HelloWorldTask --workers=2
-
-- if the file exists in output() then Luigi will not rewrite the file
-- if we want to re-write the text files for each run, we need to parameterize the jobs
-
-- create a new hello_world.txt file in a specified directory every time we run the job
-
