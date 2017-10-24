@@ -48,6 +48,3 @@ self.inputs()[0]
 
 always need to return from requires and output functions 
 not required for run function
-------------------------------------------------------------------------------------------
-https://www.slideshare.net/lallea/data-pipelines-from-zero-to-solid
-https://www.slideshare.net/lallea/test-strategies-for-data-processing-pipelines-67244458
